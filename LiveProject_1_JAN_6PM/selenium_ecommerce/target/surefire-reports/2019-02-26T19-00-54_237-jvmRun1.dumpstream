@@ -1,0 +1,29 @@
+# Created at 2019-02-26T19:01:43.637
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+# Created at 2019-02-26T19:01:46.816
+Unexpected IOException with stream: 2019-02-26 19:01:46 INFO  CreateLoginAccount:90 - Verified My account page by using object :[[FirefoxDriver: firefox on WINDOWS (c525cd58-49ca-494f-9f04-94446ba43957)] -> xpath: //h1[text()='My account']]
+
+
+# Created at 2019-02-26T19:01:51.823
+Unexpected IOException with stream: 2019-02-26 19:01:51 INFO  CreateLoginAccount:92 - Clicked on SignOut button with object : Proxy element for: DefaultElementLocator 'By.linkText: Sign out'
+
+
+# Created at 2019-02-26T19:01:51.824
+Unexpected IOException with stream: 2019-02-26 19:01:51 INFO  TC001_CustomerRegistration:23 - *****End of TC001_CustomerRegistration*****
+
+
+# Created at 2019-02-26T19:01:52.135
+Unexpected IOException: 6,1,com.durgasoft.ecommerce.homepage.TC001_CustomerRegistration,verifyRegistration(com.durgasoft.ecommerce.homepage.TC001_CustomerRegistration),null,null,null
+
+
+# Created at 2019-02-26T19:01:53.689
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+
